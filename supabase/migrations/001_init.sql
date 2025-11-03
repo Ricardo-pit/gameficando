@@ -393,3 +393,4 @@ create policy p_res_al_ins on v2.resgates_alunos for insert with check (v2.is_ma
 
 create policy p_res_gr_sel on v2.resgates_grupos for select using (v2.is_master() or school_id = v2.my_school());
 create policy p_res_gr_ins on v2.resgates_grupos for insert with check (v2.is_master() or school_id = v2.my_school());
+-- teste de deploy
