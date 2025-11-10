@@ -1,3 +1,5 @@
+-- redeploy: teste
+
 -- ============== SCHEMA LIMPO v2 (multi-escolas) ==============
 create schema if not exists v2;
 
