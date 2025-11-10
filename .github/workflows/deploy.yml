@@ -12,10 +12,11 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
+      # ✅ Action correta (v1). Você pode fixar uma versão exata se quiser.
       - name: Setup Supabase CLI
-        uses: supabase/setup-cli@v3
+        uses: supabase/setup-cli@v1
         with:
-          version: latest
+          version: latest  # ou fixe, ex: 1.200.4
 
       - name: Link to Supabase project
         env:
